@@ -13,7 +13,7 @@ Inspire [nestjs-swagger](https://github.com/nestjs/swagger) and
 ### deno.land
 
 ```ts
-import {...} from "https://deno.land/x/nhttp_swagger@0.0.1/mod.ts";
+import {...} from "https://deno.land/x/nhttp_swagger@0.0.2/mod.ts";
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ import {
   ApiResponse,
   DocumentBuilder,
   swagger,
-} from "https://deno.land/x/nhttp_swagger@0.0.1/mod.ts";
+} from "https://deno.land/x/nhttp_swagger@0.0.2/mod.ts";
 
 @ApiDocument({
   name: "Doc user 1.0",
@@ -95,7 +95,7 @@ import {
     ApiDocument,
     DocumentBuilder,
     swagger
-} from "https://deno.land/x/nhttp_swagger@0.0.1/mod.ts";
+} from "https://deno.land/x/nhttp_swagger@0.0.2/mod.ts";
 
 @ApiBearerAuth()
 @ApiDocument({
@@ -139,7 +139,7 @@ import {
     ApiDocument,
     DocumentBuilder,
     swagger
-} from "https://deno.land/x/nhttp_swagger@0.0.1/mod.ts";
+} from "https://deno.land/x/nhttp_swagger@0.0.2/mod.ts";
 
 @ApiDocument({
     name: "Doc user 1.0",
@@ -177,7 +177,7 @@ import {
     ApiDocument,
     DocumentBuilder,
     swagger
-} from "https://deno.land/x/nhttp_swagger@0.0.1/mod.ts";
+} from "https://deno.land/x/nhttp_swagger@0.0.2/mod.ts";
 
 @ApiDocument({
     name: "Doc user 1.0",
@@ -226,7 +226,7 @@ import {
     ApiDocument,
     DocumentBuilder,
     swagger
-} from "https://deno.land/x/nhttp_swagger@0.0.1/mod.ts";
+} from "https://deno.land/x/nhttp_swagger@0.0.2/mod.ts";
 
 // import class validator
 import {
